@@ -6,6 +6,8 @@ body {
     background-color: #fcfcfc;
 }
 
+/*header part*/
+
 header {
     width: 1368px;
     height: 634px;
@@ -104,4 +106,153 @@ button {
     right: 8px;
     top: 48px;
     bottom: 48px;
+}
+
+
+
+/*Nav part*/
+
+nav {
+    width: 1400px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+nav img {
+    width: 48px;
+    height: 48px;
+    padding: 20px 0px;
+    float: left;
+}
+
+.button-nav {
+    width: 122px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #6272c7;
+    border: none;
+    outline: 0;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%;
+    right: 0px;                         
+    transform: translate(0, -50%) 
+}
+
+ul {
+    display: flex;
+    float: right;
+    margin-top: 37px;
+}
+
+li {
+    height: 14px;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #858585;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+
+li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.right {
+    margin-left: 25px;
+    margin-right: 162px;
+}
+
+/*section part*/
+
+.cardBackground {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 40px auto;
+}
+
+.cardBackground div {
+    width: 442px;
+    height: 446px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.cardBackground h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.17;
+    color: #333333;
+
+    position: absolute;
+    top: 208px;
+    right: 50px;
+    bottom: 210px;
+    left: 50px;
+}
+
+.cardBackground p {
+    width: 342px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #333333;
+
+    position: absolute;
+    top: 256px;
+    right: 50px;
+    bottom: 100px;
+    left: 50px;
+}
+
+.landing {
+    width: 128px;
+    height: 128px;
+
+    position: absolute;
+    top: 40px;
+    right: 256px;
+    bottom: 278px;
+    left: 50px;
+}
+
+.cardBackground a {
+    width: 79px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #939fde;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    position: absolute;
+    top: 386px;
+    right: 313px;
+    bottom: 40px;
+    left: 50px;
+}
+
+.chevron {
+  width: 10px;
+  height: 10px;
+  
+  position: absolute;
+  top: 391.5px;
+  right: 299px;
+  bottom: 44.5px;
+  left: 133px;
 }
