@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1920px;
+    background-color: #fcfcfc;
+}
+
+header {
+    width: 1368px;
+    height: 634px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fef3df;
+    padding: 16px;
+    border: solid 1px #f2f2f2;
+    background-clip: content-box;
+    display: flex;
+    position: relative;
+}
+
+.column {
+    flex: 50%;
+}
+
+.text {
+    width: 540px;
+    height: 152px;
+    top: 144px;
+    left: 66px;
+    bottom: 138px;
+    position: absolute;
+
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.27;
+    color: #333333;
+    z-index: 1;
+}
+
+.Lorem {
+    width: 540px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333333;
+    position: absolute;
+    top: 332px;
+    left: 66px;
+}
+
+.rectangle {
+    width: 252px;
+    height: 30px;
+    background-color: #ffc050;
+    position: absolute;
+    top: 269px;
+    left: 64px;
+}
+
+button {
+    width: 150px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    outline: 0;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blue {
+    background-image: linear-gradient(to right, #828fd3, #5e6dbe 51%, #5461aa);
+    position: absolute;
+    top: 444px;
+    left: 66px;
+}
+
+.blue:hover {
+    background-image: linear-gradient(to right, #5e6dbe, #5967b5 51%, #5461ab);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.16);
+}
+
+.orange {
+    background-image: linear-gradient(to right, #ffcd73, #f3b74c 51%, #d9a444);
+    position: absolute;
+    left: 246px;
+    top: 444px;
+}
+
+.orange:hover {
+    background-image: linear-gradient(to right, #f3b74c, #e6ae48 51%, #daa444);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.16);
+}
+
+.column img {
+    width: 648px;
+    height: 538px;
+    position: absolute;
+    right: 8px;
+    top: 48px;
+    bottom: 48px;
+}
