@@ -114,7 +114,6 @@ button {
 nav {
     width: 1400px;
     height: 88px;
-    background-color: red;
     margin: 0 auto 40px auto;
     position: relative;
 }
@@ -147,13 +146,13 @@ nav img {
     transform: translate(0, -50%) 
 }
 
-ul {
+nav ul {
     display: flex;
     float: right;
     margin-top: 37px;
 }
 
-li {
+nav li {
     height: 14px;
     list-style-type: none;
     font-size: 14px;
@@ -163,7 +162,7 @@ li {
     text-transform: uppercase;
 }
 
-li a {
+nav li a {
     color: #333333;
     text-decoration: none;
 }
@@ -188,6 +187,10 @@ li a {
     border: solid 1px #f2f2f2;
     background-color: #ffffff;
     position: relative;
+}
+
+.cardBackground div:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.16);
 }
 
 .cardBackground h3 {
@@ -294,7 +297,7 @@ li a {
     left: 50px;
 }
 
-.p1 {
+.whatwedo .p1 {
     width: 582px;
     height: 60px;
     font-size: 16px;
@@ -489,3 +492,97 @@ li a {
 }
 
 /*section part 3*/
+
+.whatweoffer {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.whatweoffer2,
+.whatweoffer3 {
+    width: 682px;
+    height: 576px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.whatweoffer2 img {
+    width: 582px;
+    height: 476px;
+    margin: 50px;
+}
+
+.whatweoffer button {
+    width: 150px;
+    height: 52px;
+    border-radius: 24px;
+    background-image: linear-gradient(to right, #828fd3, #5e6dbe 51%, #5461aa);
+
+    position: absolute;
+    right: 482px;
+    top: 444px;
+}
+.whatweoffer button:hover {
+    background-image: linear-gradient(to right, #5e6dbe, #5967b5 51%, #5461ab);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.16);
+}
+
+.whatweoffer .h3 {
+    width: 582px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333333;
+
+    position: absolute;
+    right: 50px;
+    top: 80px;
+}
+
+.whatweoffer .p1 {
+    width: 582px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #333333;
+
+    position: absolute;
+    right: 50px;
+    top: 164px;
+}
+
+.whatweoffer3 ul {
+    position: absolute;
+    top: 260px;
+    right: 474px;
+}
+
+.whatweoffer3 li {
+    height: 28px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333333;
+    list-style-type: none;
+}
+
+.whatweoffer3 img {
+    width: 12px;
+    height: 12px;
+    padding: 0px 8px 0px 0px;
+    position: relative;
+}
+
+/*article*/
+
+article {
+    width: 1400px;
+    height: 572px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    margin: 40px auto;
+}
