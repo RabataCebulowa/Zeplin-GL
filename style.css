@@ -636,18 +636,6 @@ article a {
     top: 516px;
 }
 
-article .a1 {
-    left: 36px;
-}
-
-article .a2 {
-    left: 14px;
-}
-
-article .a3 {
-    left: 0px;
-}
-
 article .h4 {
     width: 424px;
     height: 30px;
@@ -683,42 +671,27 @@ article .Lorem3 {
     top: 406px;
 }
 
-article .chevron21{
-    position: absolute;
-    left: 111px;
-    top: 521px;
-    width: 10px;
-    height: 10px;
-}
-
-article .chevron22 {
-    position: absolute;
-    left: 89px;
-    top: 521px;
-    width: 10px;
-    height: 10px;
-}
-
-article .chevron23 {
+article .chevron2{
     position: absolute;
     left: 75px;
     top: 521px;
     width: 10px;
     height: 10px;
-
 }
 
 article .main1 {
-    padding-left: 36px;
+    margin-left: 36px;
+    margin-right: 14px;
 }
 
 article .main2 {
-    padding-left: 14px;
-    padding-right: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 article .main3 {
-    padding-right: 36px;
+    margin-right: 36px;
+    margin-left: 14px;
 }
 
 /*main quote*/
