@@ -11,8 +11,7 @@ body {
 header {
     width: 1368px;
     height: 634px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto;
     background-color: #fef3df;
     padding: 16px;
     border: solid 1px #f2f2f2;
@@ -115,9 +114,9 @@ button {
 nav {
     width: 1400px;
     height: 88px;
-    margin: 0 auto;
+    background-color: red;
+    margin: 0 auto 40px auto;
     position: relative;
-    margin-bottom: 40px;
 }
 
 
@@ -174,7 +173,7 @@ li a {
     margin-right: 162px;
 }
 
-/*section part*/
+/*section part 1*/
 
 .cardBackground {
     display: flex;
@@ -247,12 +246,246 @@ li a {
 }
 
 .chevron {
-  width: 10px;
-  height: 10px;
-  
-  position: absolute;
-  top: 391.5px;
-  right: 299px;
-  bottom: 44.5px;
-  left: 133px;
+    width: 10px;
+    height: 10px;
+    
+    position: absolute;
+    top: 391.5px;
+    right: 299px;
+    bottom: 44.5px;
+    left: 133px;
 }
+
+/*section part 2*/
+
+.whatwedo {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.whatwedo2 {
+    width: 682px;
+    height: 576px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+}
+
+.whatwedo img {
+    width: 582px;
+    height: 476px;
+    margin: 50px;
+}
+
+.whatwedo .h3 {
+    width: 582px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333333;
+
+    position: absolute;
+    top: 112px;
+    right: 50px;
+    bottom: 416px;
+    left: 50px;
+}
+
+.p1 {
+    width: 582px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #333333;
+
+    position: absolute;
+    top: 196px;
+    right: 50px;
+    bottom: 320px;
+    left: 50px;
+}
+
+.rectangle1 {
+    width: 524px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ffc050;
+
+    position: absolute;
+    top: 328px;
+    right: 108px;
+    bottom: 240px;
+    left: 50px;
+
+    z-index: 1;
+}
+
+.rectangle2 {
+    width: 582px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+
+    position: absolute;
+    top: 328px;
+    right: 50px;
+    bottom: 240px;
+    left: 50px;
+}
+
+.rectangle3 {
+    width: 466px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #6272c7;
+
+    position: absolute;
+    top: 392px;
+    right: 166px;
+    bottom: 176px;
+    left: 50px;
+
+    z-index: 1;
+}
+
+.rectangle4 {
+    width: 582px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+
+    position: absolute;
+    top: 392px;
+    right: 50px;
+    bottom: 176px;
+    left: 50px;
+}
+
+.rectangle5 {
+    width: 407px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ffc050;
+
+    position: absolute;
+    top: 456px;
+    right: 166px;
+    bottom: 112px;
+    left: 50px;
+
+    z-index: 1;
+}
+
+.rectangle6 {
+    width: 582px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+
+    position: absolute;
+    top: 456px;
+    right: 225px;
+    bottom: 112px;
+    left: 50px;
+}
+
+.p2 {
+    width: 291px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    color: #333333;
+
+    position: absolute;
+    top: 292px;
+    left: 50px;
+    right: 341px;
+    bottom: 258px;
+}
+
+.p3 {
+    width: 291px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    color: #333333;
+
+    position: absolute;
+    top: 356px;
+    left: 50px;
+    right: 341px;
+    bottom: 194px;
+}
+
+.p4 {
+    width: 356px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    color: #333333;
+
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    right: 341px;
+    bottom: 130px;
+}
+
+.proc1 {
+    width: 291px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    text-align: right;
+    color: #333333;
+
+    
+    position: absolute;
+    top: 292px;
+    right: 50px;
+    left: 341px;
+    bottom: 258px;
+}
+
+.proc2 {
+    width: 291px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    text-align: right;
+    color: #333333;
+
+    
+    position: absolute;
+    top: 356px;
+    right: 50px;
+    left: 341px;
+    bottom: 194px;
+}
+
+.proc3 {
+    width: 291px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    text-align: right;
+    color: #333333;
+
+    
+    position: absolute;
+    top: 420px;
+    right: 50px;
+    left: 341px;
+    bottom: 130px;
+}
+
+/*section part 3*/
