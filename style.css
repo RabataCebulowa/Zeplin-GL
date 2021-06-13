@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 1920px;
     background-color: #fcfcfc;
+    margin: 0;
 }
 
 /*header part*/
@@ -585,4 +586,406 @@ article {
     border: solid 1px #f2f2f2;
     background-color: #ffffff;
     margin: 40px auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+article .main1,
+.main2,
+.main3 {
+    height: 572px;
+    position: relative;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 424px;
+    height: 276px;
+    position: absolute;
+    top: 36px;
+}
+
+.under {
+    width: 424px;
+    height: 276px;
+    margin-top: 36px;
+    background-color: #aaaaaa;
+    z-index: 0;
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover {
+    opacity: 0.1;
+}
+
+
+article a {
+    width: 71px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 516px;
+}
+
+article .a1 {
+    left: 36px;
+}
+
+article .a2 {
+    left: 14px;
+}
+
+article .a3 {
+    left: 0px;
+}
+
+article .h4 {
+    width: 424px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.36;
+    color: #333333;
+
+    position: absolute;
+    top: 332px;
+}
+
+article .author {
+    width: 424px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #333333;
+
+    
+    position: absolute;
+    top: 374px;
+}
+
+article .Lorem3 {
+    width: 424px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #333333;
+
+    position: absolute;
+    top: 406px;
+}
+
+article .chevron21{
+    position: absolute;
+    left: 111px;
+    top: 521px;
+    width: 10px;
+    height: 10px;
+}
+
+article .chevron22 {
+    position: absolute;
+    left: 89px;
+    top: 521px;
+    width: 10px;
+    height: 10px;
+}
+
+article .chevron23 {
+    position: absolute;
+    left: 75px;
+    top: 521px;
+    width: 10px;
+    height: 10px;
+
+}
+
+article .main1 {
+    padding-left: 36px;
+}
+
+article .main2 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+article .main3 {
+    padding-right: 36px;
+}
+
+/*main quote*/
+
+main {
+    width: 1400px;
+    height: 320px;
+    margin: 40px auto;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    position: relative;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+
+main .quote {
+    width: 800px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #333333;
+    position: absolute;
+    top: 90px;
+    left: 440px;
+}
+
+main .author {
+    width: 783px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #333333;
+    position: absolute;
+    top: 200px;
+    left: 457px;
+}
+
+main .dash {
+    width: 15px;
+    height: 1px;
+    background-color: #333333;
+    position: absolute;
+    top: 216px;
+    left: 440px;
+}
+
+/*summary*/
+summary {
+    width: 1400px;
+    height: 240px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+summary div {
+    width: 245px;
+    height: 120px;
+    margin: auto 0;
+}
+
+summary div img {
+    width: 150px;
+    height: 120px;
+    margin: 0 48px;
+}
+
+/*figure*/
+
+figure {
+    width: 1400px;
+    height: 212px;
+    background-color: #fae9c9;
+    position: relative;
+    margin: 40px auto;
+}
+
+figure div {
+    width: 554px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333333;
+    position: absolute;
+    top: 82px;
+    left: 50px;
+}
+
+figure button {
+    width: 150px;
+    height: 52px;
+    background-image: linear-gradient(to right, #828fd3, #5e6dbe 51%, #5461aa);
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+
+figure button:hover {
+    background-image: linear-gradient(to right, #5e6dbe, #5967b5 51%, #5461ab);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.16);
+}
+
+/*footer*/
+
+footer {
+    width: 1920px;
+    height: 518px;
+    background-color: #081f26;
+    margin-top: 40px;
+}
+
+footer .center {
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+footer .footer {
+    height: 226px;
+    width: 305px;
+    margin-top: 80px;
+    position: relative;
+}
+
+
+footer .footer .h2 {
+    width: 305px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ffffff;
+    z-index: 1;
+    position: absolute;
+}
+
+footer .footer .u {
+    width: 54px;
+    height: 13px;
+    background-color: #ffc050;
+    position: absolute;
+    top: 19px;
+    z-index: 0;
+}
+
+footer .Lorem4 {
+    width: 305px;
+    height: 150px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #ffffff;
+
+    position: absolute;
+    top: 72px;
+}
+
+footer ul {
+    height: 154px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 72px;
+}
+
+footer li {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+footer .twitter {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    margin: auto 0;
+}
+
+footer .author {
+    width: 273px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #9ca5a8;
+
+    position: absolute;
+    top: 72px;
+    left: 36px;
+}
+
+footer .comment {
+    width: 273px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #ffffff;
+
+    position: absolute;
+    left: 36px;
+    top: 102px;
+}
+
+footer .google {
+    width: 134px;
+    height: 48px;
+
+    position: absolute;
+    left: 0;
+    top: 138px;
+}
+
+footer .apple {
+    width: 134px;
+    height: 48px;
+
+    position: absolute;
+    left: 158px;
+    top: 138px;
+}
+
+.oval1 {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 352px;
+    left: 161px;
+}
+
+.oval2 {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 352px;
+    left: 209px;
+}
+
+.oval3 {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 352px;
+    left: 257px;
+}
+
+.logos {
+    padding: 6px;
 }
